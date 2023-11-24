@@ -1,6 +1,6 @@
-# Chinook
+# Sockeye
 
-Chinook is the name I gave to a set of scripts that I use to generate datasets for the purposes of [BIOL525D Bioinformatics for Evolutionary Biologists](https://ubc-biol525d.github.io/).
+Sockeye is a fork of Chinook, a set of scripts designed to generate datasets for teaching, specifically UVic Biol 470, Introduction to Computational Genomics. Chinook was originally designed by Tom Booker to generate datasets for the purposes of [BIOL525D Bioinformatics for Evolutionary Biologists](https://ubc-biol525d.github.io/). This code is modified by Greg Owens.
 
 The datasets are based on a simulation of local adaptation in a meta-population of Chinook salmon. The simulation is implemented SLiM, in the simulation we model the evolution of a nucleotide sequence based on the chinook salmon reference genome. Check out [Simulations/](Simulations/) for more information on the simulation.
 
@@ -21,6 +21,3 @@ The pipelines in this repository make use of published methods for simulating hi
 
 * Long-read sequences modelled on those one may obtains using a PacBio NovaSeq machine, using [SimLoRD](https://bitbucket.org/genomeinformatics/simlord/src/master/) (Stocker et al 2016) [SimulateReads/HiFiReads/](SimulateReads/HiFiReads/)
 
-* **Coming soon** RNA-seq
-
-There are many programs for simulating sequencing reads. Such programs are typically used to benchmark methods. Here, we use those methods to generate data for teaching purposes.
